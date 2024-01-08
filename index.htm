@@ -1,27 +1,33 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>手动验证后跳转</title>
+</head>
+<body>
+  <h1>手动验证后跳转示例</h1>
 
+  <form>
+    <label for="verification">请输入验证码：</label>
+    <input type="text" id="verification" name="verification" autofocus required>
+    <button type="submit">提交</button>
+  </form>
+      
+  <script>
+    // 监听表单的提交事件
+    document.querySelector("form").addEventListener("submit", function(event) {
+      event.preventDefault(); // 阻止默认的提交行为
+      var verificationInput = document.getElementById("verification");
+      var verificationCode = verificationInput.value; // 获取用户输入的验证码
 
-<url>
-  <loc>https://dns.xg666.site/</loc>
-  <lastmod>2023-12-05T11:19:34+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://dns.xg666.site/login</loc>
-  <lastmod>2023-12-05T11:19:34+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://dns.xg666.site/login?act=reg</loc>
-  <lastmod>2023-12-05T11:19:34+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-
-</urlset>
+      // 进行验证
+      if (verificationCode === "1234") { // 此处的 "1234" 是你设定的验证码
+        window.location.href = "https://example.com"; // 如果验证通过，则跳转到指定的网址
+      } else {
+        alert("验证码错误，请重新输入！"); // 验证码错误提示
+        verificationInput.value = ""; // 清空输入框
+        verificationInput.focus(); // 重新聚焦到输入框
+      }
+    });
+  </script>
+</body>
+</html>
