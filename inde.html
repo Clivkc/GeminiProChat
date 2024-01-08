@@ -5,10 +5,15 @@
 
   <script>
     var seconds = 10;
+    var count = 0;
 
     function countdown() {
       if (seconds == 0) {
-        window.location.href = "http://wep.lk.weie.eu.org/inde.htm"; // 请将"目标网址"替换为你想要跳转的网址
+        if (count > 9) {
+          window.location.href = "http://wep.lk.weie.eu.org/inde.html"; // 请将"第二个链接的网址"替换为你想要跳转的网址
+        } else {
+          window.location.href = "https://mvp.svip.xg666.site/index.php"; // 请将"第一个链接的网址"替换为你想要跳转的网址
+        }
       } else {
         document.getElementById("countdown").innerHTML = seconds + " 秒后自动跳转...";
         seconds--;
