@@ -1,40 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>倒计时跳转页面</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f5f5f5;
-    }
-    h2 {
-      text-align: center;
-      margin-top: 200px;
-    }
-  </style>
+    <title>选择网页</title>
 </head>
 <body>
-  <h2 id="countdown"></h2>
-
-  <script>
-    var seconds = 10;
-
-    function countdown() {
-      if (seconds == 0) {
-        var count = <?php echo $_COOKIE['count']; ?>;
-        if (count > 9) {
-          window.location.href = "http://wep.lk.weie.eu.org/inde.htm"; // 请将"第二个链接的网址"替换为你想要跳转的网址
-        } else {
-          window.location.href = "https://mvp.svip.xg666.site/index.php"; // 请将"第一个链接的网址"替换为你想要跳转的网址
-        }
-      } else {
-        document.getElementById("countdown").innerHTML = seconds + " 秒后自动跳转...";
-        seconds--;
-        setTimeout(countdown, 1000);
-      }
-    }
-
-    countdown();
-  </script>
+    <h2>请选择一个选项：</h2>
+    <ul>
+        <li><a href="https://mvp.svip.xg666.site/index.php">你是个人</a></li>
+        <li><a href="https://wep.lk.weie.eu.org/inde.htm">你不是人</a></li>
+        <li><a href="https://wep.lk.weie.eu.org">进入作者首页</a></li>
+    </ul>
 </body>
 </html>
