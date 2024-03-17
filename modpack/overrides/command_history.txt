@@ -1,0 +1,50 @@
+/l sss111
+/mv tp CPVP_TD
+/mv tp CPVP_dt
+/time set day
+/kill @e[type=minecraft:item]
+/time set midnight
+/kill @e[type=minecraft:item]
+/time set midnight
+/weather clear
+/l sss111
+/tp2p
+/tp2p sdo2
+/tp2p sdo2 sdo2
+/tp2p sdo2 sdo2 1
+/tp2p sdo2
+/tpa sdo2
+/tps
+/kill
+/kill sdo2
+/l sss111
+/plt open
+/tp SKY_Spen sdo2
+/gamemode toggle
+/gamemode survival sdo2
+/gamemode survival SKY_Spen
+/op SKY_Spen
+/weather storm
+/weather storm 1
+/kill sdo2
+/tpaccept
+/tpa SKY_Spen
+/l sss111
+/tp xiaoli sdo2
+/time set afternoon
+/tp xiaoli sdo2
+/time set afternoon
+/time set day
+/weather storm
+/weather sun 3600
+/weather sun 86400
+/plt
+/plt addPlayerTitle xiaoli &#ffaa00M&#ee8822C&#dd6644D&#cc4466S&#bb2288官&#aa00aa方
+/reg sss111 sss111
+/tpa Stormier_114514
+/reg sss111 sss111
+/reg sss111@@ sss111@@
+/reg 2345abcd
+/reg 2345abcd 2345abcd
+/cd
+/l sss111
