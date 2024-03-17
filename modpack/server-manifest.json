@@ -1,0 +1,99 @@
+{
+  "name": "Arab Eink-2",
+  "author": "sdo2",
+  "version": "3.14.5",
+  "description": "最初的整合包模板",
+  "fileApi": "https://blng.bkm.asia/modpack",
+  "files": [
+    {
+      "path": "command_history.txt",
+      "hash": "f0e2e6196c1c8d23a5c7af3e1ea01116422dbbb7"
+    },
+    {
+      "path": "config/fabric/indigo-renderer.properties",
+      "hash": "69951a63cee31434afb549e25b59311a0fbbfe8f"
+    },
+    {
+      "path": "config/malilib.json",
+      "hash": "38d9e77318ca57d5161d2aa76f26e0263dfa7f0e"
+    },
+    {
+      "path": "config/tweakeroo.json",
+      "hash": "2868a9330cce25a115fbdd567fed846900a05088"
+    },
+    {
+      "path": "log4j2.xml",
+      "hash": "d47d254675d1aee18670aece5ed768e1e631517b"
+    },
+    {
+      "path": "mods/fabric-api-0.96.3+1.20.4.jar",
+      "hash": "b217f6c99f04527c025c8c36ef4efe41cb2aef2d"
+    },
+    {
+      "path": "mods/malilib-fabric-1.20.4-0.18.0.jar",
+      "hash": "edd1316f7e8696b013a124ef724eb05e93fea9ae"
+    },
+    {
+      "path": "mods/tweakeroo-fabric-1.20.4-0.19.1.jar",
+      "hash": "60352ef9d82d6a04d50a6cbb5550b3489d7adc1a"
+    },
+    {
+      "path": "natives-windows-x86_64/glfw.dll",
+      "hash": "441763565f855644c715e1adfe6f7ede4bfebe26"
+    },
+    {
+      "path": "natives-windows-x86_64/jemalloc.dll",
+      "hash": "42e285cb02cb8b649e98e3e62d13fdb5d2c8f31a"
+    },
+    {
+      "path": "natives-windows-x86_64/jna3766969712055349164.dll",
+      "hash": "d9ed8776645f6b4f52df16132450863c47ea92d7"
+    },
+    {
+      "path": "natives-windows-x86_64/jna3766969712055349164.dll.x",
+      "hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "path": "natives-windows-x86_64/lwjgl.dll",
+      "hash": "2a78383cdda7062a6a7fea9acaf0b1f3dcdf8577"
+    },
+    {
+      "path": "natives-windows-x86_64/lwjgl_opengl.dll",
+      "hash": "483db85790a51bab647aaf84d5034fe85cb07bc1"
+    },
+    {
+      "path": "natives-windows-x86_64/lwjgl_stb.dll",
+      "hash": "0475064086f42d57382d5ebedd1180215cb6d136"
+    },
+    {
+      "path": "natives-windows-x86_64/OpenAL.dll",
+      "hash": "7c61d6527cbdb45a2610ebcb96d9ef874fe4b4d8"
+    },
+    {
+      "path": "options.txt",
+      "hash": "9eaa9455513ab9aa6c40d90c02a36f48035d7a81"
+    },
+    {
+      "path": "resourcepacks/3D不死图腾.zip",
+      "hash": "a5eb8f130b80b53c37dccd315bb03888571eccc1"
+    },
+    {
+      "path": "servers.dat",
+      "hash": "2a85eef9fdec191d44eedb85ff0dd9146e64aecb"
+    },
+    {
+      "path": "servers.dat_old",
+      "hash": "2a85eef9fdec191d44eedb85ff0dd9146e64aecb"
+    }
+  ],
+  "addons": [
+    {
+      "id": "game",
+      "version": "1.20.4"
+    },
+    {
+      "id": "fabric",
+      "version": "0.15.7"
+    }
+  ]
+}
